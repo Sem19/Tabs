@@ -1,10 +1,5 @@
 import { useState } from "react";
 import styles from "./tabs.module.css";
-// const checkedLeftColumn = array.filter((item) => obj[item]);
-// console.log(checkedLeftColumn);
-
-//1 checkItems = Object
-//2 if nothing selected button - disabled
 
 const Tabs = () => {
   const [leftColumn, setLeftColumn] = useState([1, 2, 3, 4]);
